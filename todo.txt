@@ -1,0 +1,15 @@
+Deployed:
+        [X] Buttons
+        [X] Navbar 
+                [ ] New Logo
+                [ ] New 
+        [X] Footer
+                [ ] Finish footer
+        [X] ContactHero
+                [ ] Contact form to be finished!
+        [X] ContactUs
+        [X] AboutUs
+        [ ] Main
+                [ ] LandingPage
+                [ ] Fix scales
+                [ ] Animations
