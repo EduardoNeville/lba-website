@@ -1,4 +1,3 @@
-"use client"
 import { Transition } from '@headlessui/react'
 import React, { ReactNode } from 'react';
 import { InView } from 'react-intersection-observer'
