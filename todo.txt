@@ -13,3 +13,7 @@ Deployed:
                 [ ] LandingPage
                 [ ] Fix scales
                 [ ] Animations
+
+        [ ] Buy
+        [ ] Sell
+        [ ] Invest

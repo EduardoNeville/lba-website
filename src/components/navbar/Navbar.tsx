@@ -2,12 +2,12 @@ import { useState } from 'react';
 import NavItem from "./NavItem";
 
 const MENU_LIST = [
-  {text: "Home", href: "#"},
-  { text: "Buy", href: "/buy" },
-  { text: "Sell", href: "/sell" },
-  { text: "Invest", href: "/invest" },
-  { text: "About", href: "/aboutus" },
-  { text: "Contact", href: "/contactus" },
+  { text: "Home",     href: "/"},
+  { text: "Buy",      href: "buy" },
+  { text: "Sell",     href: "sell" },
+  { text: "Invest",   href: "invest" },
+  { text: "About",    href: "aboutus" },
+  { text: "Contact",  href: "contactus" },
 ];
 
 export default function NavBar() {
@@ -18,10 +18,10 @@ export default function NavBar() {
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
-              <a href="#" className="hidden md:block text-2xl text-primary font-zesta-bold visible">
+              <a href="/" className="hidden md:block text-2xl text-primary font-zesta-bold visible">
                 Legal Boutique Advisers 
               </a>
-              <a href="#" className="block md:hidden text-2xl text-primary font-zesta-bold visible">
+              <a href="/" className="block md:hidden text-2xl text-primary font-zesta-bold visible">
                 L-B-A
               </a>
               <div className="md:hidden">

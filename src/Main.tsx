@@ -1,4 +1,3 @@
-import React from 'react';
 import Animation from './components/transitions/Animation'
 import ButtonItem from './components/buttonItem'
 import Navbar from './components/navbar/Navbar'
@@ -158,9 +157,9 @@ function Main(){
         </section>
 
         <section className="h-[47rem] md:h-[45rem] w-screen">
-          <div className= "relative flex flex-col space-y-[2rem] md:w-[55rem] md:mx-auto">
+          <div className= "relative flex flex-col md:w-[55rem] md:mx-auto">
             <Animation delay={400} x="right" y="center" className="z-20">
-              <div className= "relative md:absolute md:inset-y-[8rem] md:-right-[8rem] z-20 md:h-[13rem] md:w-[44rem] mx-[2rem] md:p-[2rem] bg-slate-50 text-primary text-xl text-left md:text-justify md:rounded-lg">
+              <div className= "relative md:absolute md:-right-[8rem] z-20 md:h-[18rem] md:w-[44rem] mx-[2rem] md:p-[2rem] bg-slate-50 text-primary text-xl text-left md:text-justify md:rounded-lg">
                 <Animation delay={400} x="right" y="center">
                   <h1 className="text-3xl font-zesta-black"> Investing in the future </h1>
                 </Animation>
