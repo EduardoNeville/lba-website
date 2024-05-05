@@ -157,7 +157,7 @@ function Main(){
         </section>
 
         <section className="h-[47rem] md:h-[45rem] w-screen">
-          <div className= "relative flex flex-col md:w-[55rem] md:mx-auto">
+          <div className= "relative flex flex-col">
             <Animation delay={400} x="right" y="center" className="z-20">
               <div className= "relative md:absolute md:-right-[8rem] z-20 md:h-[18rem] md:w-[44rem] mx-[2rem] md:p-[2rem] bg-slate-50 text-primary text-xl text-left md:text-justify md:rounded-lg">
                 <Animation delay={400} x="right" y="center">
@@ -187,10 +187,12 @@ function Main(){
             </Animation>
           </div>
         </section>
+
       </section>
 
-      <Footer />
       <ContactHero />
+
+      <Footer />
     </main>
   );
 }

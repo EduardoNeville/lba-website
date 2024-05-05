@@ -2,7 +2,6 @@ Deployed:
         [X] Buttons
         [X] Navbar 
                 [ ] New Logo
-                [ ] New 
         [X] Footer
                 [ ] Finish footer
         [X] ContactHero
@@ -10,10 +9,10 @@ Deployed:
         [X] ContactUs
         [X] AboutUs
         [ ] Main
-                [ ] LandingPage
+                [ ] LandingPage -> Background Image
                 [ ] Fix scales
-                [ ] Animations
-
+                [X] Animations
         [ ] Buy
         [ ] Sell
         [ ] Invest
+        [ ] Image resizing

@@ -2,7 +2,6 @@ import { useState } from 'react';
 import NavItem from "./NavItem";
 
 const MENU_LIST = [
-  { text: "Home",     href: "/"},
   { text: "Buy",      href: "buy" },
   { text: "Sell",     href: "sell" },
   { text: "Invest",   href: "invest" },
@@ -14,12 +13,16 @@ export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
   return (
     <>
-       <nav className="sticky top-0 z-30 w-full bg-light-blue bg-opacity-90 shadow">
-        <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+      <nav className="sticky top-0 z-30 w-full bg-light-blue bg-opacity-90 shadow">
+        <div className="justify-between px-4 md:w-[55rem] md:mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
-              <a href="/" className="hidden md:block text-2xl text-primary font-zesta-bold visible">
-                Legal Boutique Advisers 
+              <a href="/">
+                <img 
+                  alt="LBA_Logo"
+                  className="w-[30rem] h-auto md:rounded-lg"
+                  src="/images/LBA_Logo.jpg" 
+                />
               </a>
               <a href="/" className="block md:hidden text-2xl text-primary font-zesta-bold visible">
                 L-B-A
